@@ -416,14 +416,14 @@
     - {path: /etc/group-, owner: root, group: root, mode: '0644'}
     - {path: /etc/gshadow, owner: root, group: root, mode: '0000'}
     - {path: /etc/login.defs, owner: root, group: root, mode: '0444'}
-    - {path: /etc/passwd, owner: root, group: root, mode: '0600'}
-    - {path: /etc/passwd-, owner: root, group: root, mode: '0600'}
+    - {path: /etc/passwd, owner: root, group: root, mode: '0640'}
+    - {path: /etc/passwd-, owner: root, group: root, mode: '0640'}
     - {path: /etc/security/limits.d/hardening.conf, owner: root, group: root, mode: '0440'}
     - {path: /etc/shadow, owner: root, group: root, mode: '0000'}
     - {path: /etc/shadow-, owner: root, group: root, mode: '0000'}
     - {path: /etc/sudoers, owner: root, group: root, mode: '0000'}
     - {path: /etc/sysctl.conf, owner: root, group: root, mode: '0400'}
-    - {path: /etc/grub2.cfg, owner: root, group: root, mode: '0600'}
+    - {path: /etc/grub2.cfg, owner: root, group: root, mode: '0640'}
 
 # CIS 5.2.1
 # CIS 6.1.1
