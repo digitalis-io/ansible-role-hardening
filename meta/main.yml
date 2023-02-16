@@ -1,0 +1,26 @@
+---
+
+galaxy_info:
+  author: Digitalis.IO DevOps Team
+  description: Digitalis Role for hardening up to PCI-DSS level
+  company: Digitalis.IO
+  license: Apache Licese 2.0
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: RedHat
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - automation
+    - security
+    - pci
+
+dependencies: []
+
+...
